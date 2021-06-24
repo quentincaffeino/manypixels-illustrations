@@ -1,0 +1,45 @@
+{
+  "name": "@quentincaffeino/manypixels-svelte",
+  "description": "Manypixels SVG Illustrations for svelte",
+  "version": "0.1.0",
+  "author": "quentincaffeino <sergey95zu@gmail.com>",
+  "repository": {
+    "url": "quentincaffeino/manypixels-illustrations",
+    "directory": "packages/svelte",
+    "type": "git"
+  },
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build:icons": "node build",
+    "build:dist": "rollup -c",
+    "build": "npm run build:icons && npm run build:dist",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "fs-extra": "^8.1.0",
+    "jsdom": "^16.6.0",
+    "pascal-case": "^3.1.2",
+    "path": "^0.12.7",
+    "rollup": "^1.32.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "latest",
+    "rollup-plugin-terser": "^5.3.1",
+    "svelte": "^3.38.3",
+    "svgo": "^2.3.0"
+  },
+  "keywords": [
+    "front-end",
+    "manypixels",
+    "illustrations",
+    "svg",
+    "svelte"
+  ]
+}
