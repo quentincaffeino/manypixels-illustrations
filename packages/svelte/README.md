@@ -1,5 +1,7 @@
 # @quentincaffeino/manypixels-svelte
 
+All the credit goes to awesome ManyPixels team for creating these awesome illistrations.
+
 ## Usage
 
 Svelte components export these props:
@@ -42,3 +44,9 @@ Svelte components export these props:
 
 <svelte:component this={component} />
 ```
+
+## Licensing
+
+For information about licensing for ManyPixels Illustrations see [this page](https://www.manypixels.co/gallery).
+
+Code is published under MIT license.
