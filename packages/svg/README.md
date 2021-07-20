@@ -14,6 +14,10 @@ All the credit goes to awesome ManyPixels team for creating these awesome illist
 
 > Note: For svelte you might need to add something like `rollup-plugin-svelte-svg` to your bundling process.
 
+## File Naming
+
+All illustrations are renamed to UpperCamelCase (spaces and symbols are removed). For example `Online report` is renamed to `OnlineReport`.
+
 ## Licensing
 
 For information about licensing for ManyPixels Illustrations see [this page](https://www.manypixels.co/gallery).
