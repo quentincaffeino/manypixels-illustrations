@@ -39,12 +39,6 @@ dirs.forEach((dirName) => {
   const illustrations = getFiles(srcDir + "/" + dirName).map((file) => {
     let name = path.basename(getFileName(file));
 
-    if (name.startsWith("3D")) {
-      name = name.replace("3D", "") + "3D";
-    } else if (name.startsWith("404")) {
-      name = name.replace("404", "");
-    }
-
     const svg = fs.readFileSync(file);
     const dom = new JSDOM(svg);
     const svgEl = dom.window.document.body.children[0];
