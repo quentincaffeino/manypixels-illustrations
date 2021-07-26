@@ -1,7 +1,7 @@
 {
   "name": "@quentincaffeino/manypixels-svelte",
   "description": "Manypixels SVG Illustrations for svelte",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "quentincaffeino <sergey95zu@gmail.com>",
   "repository": {
     "url": "quentincaffeino/manypixels-illustrations",
