@@ -9,17 +9,17 @@
     "type": "git"
   },
   "svelte": "src/index.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
+  "module": "lib/index.mjs",
+  "main": "lib/index.js",
   "files": [
     "src",
-    "dist"
+    "lib"
   ],
   "license": "MIT",
   "scripts": {
     "build:icons": "node build",
-    "build:dist": "rollup -c",
-    "build": "npm run build:icons && npm run build:dist",
+    "build:lib": "rollup -c",
+    "build": "npm run build:icons && npm run build:lib",
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
