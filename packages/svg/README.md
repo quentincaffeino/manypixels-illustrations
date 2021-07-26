@@ -1,6 +1,6 @@
 # @quentincaffeino/manypixels-svg
 
-All the credit goes to awesome ManyPixels team for creating these awesome illistrations.
+All the credit goes to awesome ManyPixels team for creating these awesome illustrations.
 
 ## Using with Svelte
 

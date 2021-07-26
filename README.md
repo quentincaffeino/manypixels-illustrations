@@ -1,6 +1,6 @@
 # Manypixels SVG Illustrations
 
-All the credit goes to awesome [Manypixels](https://www.manypixels.co/) team for creating these awesome illistrations.
+All the credit goes to awesome [ManyPixels](https://www.manypixels.co/) team for creating these awesome illustrations.
 
 ## Packages
 

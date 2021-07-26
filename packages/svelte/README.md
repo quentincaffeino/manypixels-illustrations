@@ -1,10 +1,10 @@
 # @quentincaffeino/manypixels-svelte
 
-All the credit goes to awesome ManyPixels team for creating these awesome illistrations.
+All the credit goes to awesome ManyPixels team for creating these awesome illustrations.
 
 ## Usage
 
-Svelte components export these props:
+Components export these props:
 
 - class - Add class to svg element
 - size - This would set width and height of an image
@@ -15,7 +15,7 @@ Svelte components export these props:
 
 ```svelte
 <script>
-  import Fortnite from "@quentincaffeino/manypixels-svelte/src/flatline/Fortnite.svelte";
+  import Fortnite from "@quentincaffeino/manypixels-svelte";
 </script>
 
 <Fortnite />
