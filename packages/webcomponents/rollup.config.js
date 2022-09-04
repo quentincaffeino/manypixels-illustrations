@@ -16,15 +16,20 @@ const types = [
 ];
 
 export default types.map((type) => ({
-  input: type + "/svelte.js",
+  input: "../svelte/" + type + "/svelte.js",
   output: [
     { file: type + "/module.mjs", format: "es" },
-    { file: type + "/main.js", format: "umd", name },
+    {
+      file: type + "/main.js",
+      format: "umd",
+      name: name + type.charAt(0).toUpperCase() + type.slice(1),
+    },
   ],
   plugins: [
     svelte({
       compilerOptions: {
-        generate: "ssr",
+        generate: "dom",
+        customElement: true,
       },
     }),
     terser(),

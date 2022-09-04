@@ -1,7 +1,7 @@
 {
-  "name": "@quentincaffeino/manypixels-svg",
-  "version": "0.1.1",
-  "description": "Manypixels SVG Illustrations",
+  "name": "@quentincaffeino/manypixels-illustrations-svg",
+  "version": "0.1.0",
+  "description": "Manypixels svg illustrations",
   "author": "quentincaffeino <sergey95zu@gmail.com>",
   "repository": {
     "url": "quentincaffeino/manypixels-illustrations",
@@ -9,7 +9,7 @@
     "type": "git"
   },
   "files": [
-    "src/**/*.svg"
+    "**/*.svg"
   ],
   "license": "MIT",
   "keywords": [

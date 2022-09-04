@@ -1,4 +1,4 @@
-# @quentincaffeino/manypixels-svelte
+# @quentincaffeino/manypixels-illustrations-svelte
 
 All the credit goes to awesome ManyPixels team for creating these awesome illustrations.
 
@@ -15,7 +15,7 @@ Components export these props:
 
 ```svelte
 <script>
-  import Fortnite from "@quentincaffeino/manypixels-svelte";
+  import Fortnite from "@quentincaffeino/manypixels-illustrations-svelte/isometric";
 </script>
 
 <Fortnite />
@@ -33,7 +33,7 @@ Components export these props:
     try {
       component = (
         await import(
-          "@quentincaffeino/manypixels-svelte/src/flatline/Fortnite.svelte"
+          "@quentincaffeino/manypixels-illustrations-svelte/flatline/Fortnite.svelte"
         )
       ).default;
     } catch (e) {
@@ -42,7 +42,9 @@ Components export these props:
   });
 </script>
 
-<svelte:component this={component} />
+{#if component}
+  <svelte:component this={component} />
+{/if}
 ```
 
 ## Licensing
