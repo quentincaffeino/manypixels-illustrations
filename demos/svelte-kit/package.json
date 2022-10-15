@@ -12,14 +12,14 @@
 	"devDependencies": {
 		"@sveltejs/kit": "next",
 		"prettier": "2.7.1",
-		"prettier-plugin-svelte": "^2.2.0",
-		"svelte": "^3.34.0"
+		"prettier-plugin-svelte": "2.8.0",
+		"svelte": "3.52.0"
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.2.2",
-		"@lukeed/uuid": "^2.0.0",
-		"cookie": "^0.4.1",
+		"@fontsource/fira-mono": "4.5.10",
+		"@lukeed/uuid": "2.0.0",
+		"cookie": "0.4.2",
 		"@quentincaffeino/manypixels-svelte": "workspace:*"
 	}
 }
